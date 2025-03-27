@@ -1,4 +1,9 @@
 # Quiz Master - Mobile Quiz Application
+## App Builds
+
+You can access the latest build of Quiz Master through Expo:
+
+[![Expo Build](https://img.shields.io/badge/Expo-Build-blue.svg)](https://expo.dev/accounts/bharathkumarreddy2004/projects/quizmaster/builds/696f704b-9f0f-4333-a0d3-83677ffbf6f7)
 
 ## Table of Contents
 - [Features](#features)
