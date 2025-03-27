@@ -1,4 +1,3 @@
-// app/quiz.tsx
 import { SafeAreaView, ScrollView, Alert } from 'react-native';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import { useQuizStore } from '@/store/quizStore';
@@ -11,7 +10,6 @@ import {
   QuizControls,
   QuizResults
 } from '@/components/quiz';
-import { Quiz } from '@/types/type';
 
 export default function QuizScreen() {
   useQuizBackHandler();
