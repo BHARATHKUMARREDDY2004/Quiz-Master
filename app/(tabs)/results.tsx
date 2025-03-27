@@ -1,4 +1,3 @@
-// app/results.tsx
 import { View, FlatList, Text } from 'react-native';
 import { useQuizStore } from '../../store/quizStore';
 import { QuizSummaryCard } from '@/components/QuizSummaryCard';
