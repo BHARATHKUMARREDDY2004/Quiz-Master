@@ -5,6 +5,17 @@ You can access the latest build of Quiz Master through Expo:
 
 [![Expo Build](https://img.shields.io/badge/Expo-Build-blue.svg)](https://expo.dev/accounts/bharathkumarreddy2004/projects/quizmaster/builds/696f704b-9f0f-4333-a0d3-83677ffbf6f7)
 
+## App Screenshots
+
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 16px;">
+  <img src="quizquestion.jpeg" alt="Home Screen" width="200" style="border: 1px solid #ddd; border-radius: 8px;"/>
+  <img src="quizquestion3.jpeg" alt="Quiz Screen" width="200" style="border: 1px solid #ddd; border-radius: 8px;"/>
+  <img src="resultsscreen.jpeg" alt="Results Screen" width="200" style="border: 1px solid #ddd; border-radius: 8px;"/>
+  <img src="quizquestion2.jpeg" alt="Question View" width="200" style="border: 1px solid #ddd; border-radius: 8px;"/>
+  <img src="quizquestion1.jpeg" alt="Answer Feedback" width="200" style="border: 1px solid #ddd; border-radius: 8px;"/>
+  <img src="quizresultsscreen.jpeg" alt="Score Summary" width="200" style="border: 1px solid #ddd; border-radius: 8px;"/>
+</div>
+
 ## Table of Contents
 - [Features](#features)
 - [Technologies Used](#technologies-used)
