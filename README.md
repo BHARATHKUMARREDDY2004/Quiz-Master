@@ -1,50 +1,99 @@
-# Welcome to your Expo app 👋
+# Quiz Master - Mobile Quiz Application
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Table of Contents
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Running the App](#running-the-app)
+- [Building the App](#building-the-app)
 
-## Get started
+## Features
 
-1. Install dependencies
+✅ **Quiz Selection Screen**  
+- List of available quizzes
+- Quiz details (title, number of questions)
 
+✅ **Interactive Quiz Experience**  
+- Single-choice question format
+- Visual feedback for selected answers
+- Immediate validation on submission
+- Score tracking throughout the quiz
+
+✅ **Results Screen**  
+- Detailed performance summary
+- Correct/incorrect answer breakdown
+- Score percentage calculation
+
+✅ **Bonus Features**  
+- Back button prevention during active quiz
+- Persistent quiz history using Zustand
+- Responsive design with Tailwind CSS
+
+## Technologies Used
+
+- **Framework**: React Native (Expo)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **State Management**: Zustand
+- **Navigation**: Expo Router
+- **Build Tool**: EAS Build
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/BHARATHKUMARREDDY2004/Quiz-Master/
+   cd Quiz-Master
+   ```
+
+2. Install dependencies:
    ```bash
    npm install
+   # or
+   yarn install
    ```
 
-2. Start the app
-
+3. Set up EAS CLI (for building):
    ```bash
-    npx expo start
+   npm install -g eas-cli
+   eas login
    ```
 
-In the output, you'll find options to open the app in a
+## Running the App
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+### Development Mode
 ```bash
-npm run reset-project
+npm start
+# or
+yarn start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### Android Emulator
+```bash
+npm run android
+# or
+yarn android
+```
 
-## Learn more
+### iOS Simulator (macOS only)
+```bash
+npm run ios
+# or
+yarn ios
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+## Building the App
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### Android Preview Build
+```bash
+eas build -p android --profile preview
+```
 
-## Join the community
+### Production Build
+```bash
+eas build -p android --profile production
+```
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+**Developed by [Bharath Kumar Reddy]**  
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-blue)](https://github.com/BHARATHKUMARREDDY2004/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue)](https://www.linkedin.com/in/bharath-kumar-reddy-vemireddy/)
